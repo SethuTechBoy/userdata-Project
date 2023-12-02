@@ -1,0 +1,34 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: khaki ;
+}
+
+.home_container {
+    text-align: center;
+}
+
+.home_container > input, textarea {
+    width: 250px;
+    padding: 15px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid  rgb(192, 188, 188);
+    border-radius: 5px;
+    resize: none;
+}
+
+.home_container > button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgb(124, 197, 14);
+    color: white;
+    cursor: pointer;
+}
+
